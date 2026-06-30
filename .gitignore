@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data and ML artifacts
+data/.cache/
+data/raw/
+data/processed/
+data/*.zip
+data/*.h5
+data/*.hdf5
+data/*.csv
+data/*.parquet
+outputs/
+models/
+checkpoints/
+mlruns/
+wandb/
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
